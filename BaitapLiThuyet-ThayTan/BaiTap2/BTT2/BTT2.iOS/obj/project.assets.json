@@ -1,0 +1,147 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "BTT2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BTT2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTT2.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "BTT2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BTT2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTT2.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "BTT2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BTT2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTT2.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "BTT2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BTT2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTT2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BTT2/1.0.0": {
+      "type": "project",
+      "path": "../BTT2/BTT2.csproj",
+      "msbuildProject": "../BTT2/BTT2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "BTT2 >= 1.0.0",
+      "Xamarin.Forms >= 3.4.0.1008975"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.iOS\\BTT2.iOS.csproj",
+      "projectName": "BTT2.iOS",
+      "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.iOS\\BTT2.iOS.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2\\BTT2.csproj": {
+              "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2\\BTT2.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.4.0.1008975, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "version": 3,
+  "targets": {
+    "MonoAndroid,Version=v8.0": {
+      "BTT2/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Forms": "3.4.0.1008975"
+        },
+        "compile": {
+          "bin/placeholder/BTT2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BTT2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BTT2/1.0.0": {
+      "type": "project",
+      "path": "../BTT2/BTT2.csproj",
+      "msbuildProject": "../BTT2/BTT2.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "MonoAndroid,Version=v8.0": [
+      "BTT2 >= 1.0.0",
+      "Xamarin.Android.Support.Design >= 26.1.0.1",
+      "Xamarin.Android.Support.v4 >= 26.1.0.1",
+      "Xamarin.Android.Support.v7.AppCompat >= 26.1.0.1",
+      "Xamarin.Android.Support.v7.CardView >= 26.1.0.1",
+      "Xamarin.Android.Support.v7.MediaRouter >= 26.1.0.1",
+      "Xamarin.Forms >= 3.4.0.1008975"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.Android\\BTT2.Android.csproj",
+      "projectName": "BTT2.Android",
+      "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.Android\\BTT2.Android.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2.Android\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "monoandroid80"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "monoandroid80": {
+          "projectReferences": {
+            "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2\\BTT2.csproj": {
+              "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap2\\BTT2\\BTT2\\BTT2.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "monoandroid80": {
+        "dependencies": {
+          "Xamarin.Android.Support.Design": {
+            "target": "Package",
+            "version": "[26.1.0.1, )"
+          },
+          "Xamarin.Android.Support.v4": {
+            "target": "Package",
+            "version": "[26.1.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.AppCompat": {
+            "target": "Package",
+            "version": "[26.1.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.CardView": {
+            "target": "Package",
+            "version": "[26.1.0.1, )"
+          },
+          "Xamarin.Android.Support.v7.MediaRouter": {
+            "target": "Package",
+            "version": "[26.1.0.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[3.4.0.1008975, )"
+          }
+        }
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.Design. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.Design",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.AppCompat. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.AppCompat",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v4. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v4",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.CardView. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.CardView",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Android.Support.v7.MediaRouter. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Android.Support.v7.MediaRouter",
+      "targetGraphs": [
+        "MonoAndroid,Version=v8.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "BaiTap1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "compile": {
+          "bin/placeholder/BaiTap1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiTap1.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "BaiTap1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "compile": {
+          "bin/placeholder/BaiTap1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiTap1.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "BaiTap1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "compile": {
+          "bin/placeholder/BaiTap1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiTap1.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "BaiTap1/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Xamarin.Essentials": "1.1.0",
+          "Xamarin.Forms": "4.1.0.555618"
+        },
+        "compile": {
+          "bin/placeholder/BaiTap1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaiTap1.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaiTap1/1.0.0": {
+      "type": "project",
+      "path": "../BaiTap1/BaiTap1.csproj",
+      "msbuildProject": "../BaiTap1/BaiTap1.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "BaiTap1 >= 1.0.0",
+      "Xamarin.Essentials >= 1.1.0",
+      "Xamarin.Forms >= 4.1.0.555618"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap1\\BaiTap1\\BaiTap1.iOS\\BaiTap1.iOS.csproj",
+      "projectName": "BaiTap1.iOS",
+      "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap1\\BaiTap1\\BaiTap1.iOS\\BaiTap1.iOS.csproj",
+      "packagesPath": "C:\\Users\\Tran Quoc Dat\\.nuget\\packages\\",
+      "outputPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap1\\BaiTap1\\BaiTap1.iOS\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Tran Quoc Dat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap1\\BaiTap1\\BaiTap1\\BaiTap1.csproj": {
+              "projectPath": "D:\\Mobile\\16520206\\BaitapLiThuyet-ThayTan\\BaiTap1\\BaiTap1\\BaiTap1\\BaiTap1.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.1.0.555618, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Forms. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Xamarin.Essentials. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Xamarin.Essentials",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}
